@@ -74,10 +74,18 @@ void Wheel_::yAxis(int16_t a) {
   _wheelReport.yAxis = a;
 }
 
-
 void Wheel_::zAxis(int16_t a) {
   _wheelReport.zAxis = a;
 }
+
 void Wheel_::rxAxis(int16_t a) {
   _wheelReport.rxAxis = a;
+}
+
+void Wheel_::ryAxis(int16_t a) {
+  _wheelReport.ryAxis = a;
+}
+
+void Wheel_::rzAxis(int16_t a) {
+  _wheelReport.rzAxis = a;
 }

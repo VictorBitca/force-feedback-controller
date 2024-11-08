@@ -30,6 +30,8 @@ class Wheel_
     void yAxis(int16_t a);
     void zAxis(int16_t a);
     void rxAxis(int16_t a);
+    void ryAxis(int16_t a);
+    void rzAxis(int16_t a);
     uint8_t AvailableReport();
     int  RecvReport(void* data, int len);
     void RecvFfbReport();
